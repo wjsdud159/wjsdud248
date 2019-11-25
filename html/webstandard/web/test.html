@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+   <meta charset="UTF-8"> 
+   <title>토스트</title>
+<style>
+*{margin: 0; padding: 0;}  
+
+.body {background-color: #000;}
+
+.box {background: #fff; width: 1300px; margin: 0 auto; padding:30px; overflow: hidden;}
+
+.left {float: left; width: 50%; border-right:1px solid#ccc;position: relative; }
+.left h4 {padding-left: 50px;}
+.left ul {padding: 10px 20px;}
+.left li {padding: 15px;}
+.left li a{float: left; width: 80%;}
+.left li span {float: right; width: 20%;}
+.left a.more {position: absolute; top:10;right: 5;}
+
+.right {float: left; margin-left: 30px; position: relative;}
+.right h4{padding-left: 50px;}
+.right ul {padding: 10px 20px;}
+.right li {padding: 15px;}
+.right li a {float: left;width: 50%; text-overflow: ellipsis; white-space: nowrap; padding-left: 20px; position: relative; overflow: hidden;}
+.right img {width: 40px; position: absolute; top: -5px; left: 0;}
+.right li span {float: right; width: 20%;}
+.right a.more {position: absolute; top:10;right: 5;}
+
+ul,li {list-style: none;}
+a {color: #222; text-decoration: none;}
+
+</style> 
+</head>
+<body>
+ <div class="body">
+ <div class="box">
+   <div class="left">
+      <h4>TOAST Meetup!</h4>
+      <ul>
+         <li><a href="#">크롬 네이티브 레이지 로딩</a><span>2019.05.22</span></li>
+         <li><a href="#">타입 스크립트에서 Vue 컴포넌트를 개발하는 방법</a><span>2019.05.22</span></li>
+         <li><a href="#">AngularJS에서 Vue로 전환하면서 배운 것</a><span>2019.05.22</span></li>
+         <li><a href="#">실용적인 프론트엔드 테스트 전략(3)</a><span>2019.05.22</span></li>
+      </ul>
+      <a href="#" class="more" img src="webstandard/img/01.png" alt=""></a>
+   </div>
+   <div class="right">
+      <h4>서비스 공지</h4>
+      <ul>
+         <li><a href="#"img src="webstandard/img/02.png" alt="">[보안동향공지]MySQL을 이용한 랜섬웨어 공격동향</a><span>2019.05.22</span></li>
+         <li><a href="#"img src="webstandard/img/02.png" alt="">[TOAST FORWARD]자바스크립트 OOP 꼭꼭 씹어</a><span>2019.05.22</span></li>
+         <li><a href="#"img src="webstandard/img/03.png" alt="">[JP Region]Compute & Network 점검 안내</a><span>2019.05.22</span></li>
+         <li><a href="#"img src="webstandard/img/02.png" alt="">Secure Key Manager 신규 출시 및 u2 Instance 정책 </a><span>2019.05.22</span></li>      
+      </ul>
+      <a href="#" class="more" img src="webstandard/img/01.png" alt=""></a>
+   </div>
+   
+</div>   
+ </div>  
+</body>
+</html>

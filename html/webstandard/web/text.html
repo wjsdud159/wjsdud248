@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<title>TOAST</title>
+		<style>
+			*{margin:0;  padding:0; }
+			ul, li { list-style: none; }
+			a {color: #222;  text-decoration: none; }
+
+			body {background-color: #000; }
+
+			.box {background: #fff; width: 1200px; margin:0 auto;  overflow: hidden; padding: 10px;}
+
+			.left {float: left; width: 500px; padding: 30px;  border-right: 1px solid #ccc; position: relative;}
+			.left h4 {padding-bottom: 10px; }
+			.left ul { }
+			.left li {overflow: hidden; padding:2px;}
+			.left li a{float: left; white-space:nowrap; text-overflow: ellipsis; overflow: hidden; width: 60%;}
+			.left li span {float:right; width: 30%; text-align:right; }
+			.left a.more {position: absolute; top: 20px; right: 30px;}
+
+			.right {float: left; width: 500px; padding: 30px; position: relative;}
+			.right h4 {padding-bottom: 10px;}
+			.right ul  {}
+			.right li {overflow: hidden; padding:2px;}
+			.right li a{float: left; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; width: 60%;}
+			.right img {  }
+			.right li span {float:right; width: 30%; text-align: right; }
+			.right a.more {position: absolute; top: 20px; right: 30px;}
+		
+		</style>
+	</head>
+	<body>
+		<div class="body">
+			<div class="box">
+				<div class="left">
+					<h4>TOAST MEETUP!</h4>
+					<ul>
+						<li><a href="#">[Android}unit testing-robclectric]</a><span>2019.06.04</span></li>
+						<li><a href="#">[kotlin]	메모리 방지하기 kotlin,Lambdas는다다다다다다</a><span>2019.06.04</span></li>
+						<li><a href="#">[Java] Integer.valueOf(127) == Integer.valueOf(127) 는 참일까요?</a><span>2019.06.04</span></li>
+						<li><a href="#">[Kotlin | Android] 테스트 코드 작성이 힘든 이유와 테스트 가능 코드에 대한 고민</a><span>2019.06.04</span></li>
+					</ul>
+					<a href="#" class="more"><img src="img/01.jpg" alt="더보기"></a>
+				</div>
+
+				<div class="right">
+					<h4>서비스 공지</h4>
+					<ul>
+						<li><a href="#" ><img src="img/02.jpg" alt="더보기">[보안동향공지] MySQL을 이용한 랜섬웨어 공격동향 및 대응방</a><span>2019.05.24</span></li>
+						<li><a href="#" ><img src="img/02.jpg" alt="더보기">[TOAST FORWARD] 자바스크립트 OOP 꼭꼭 씹어 먹기</a><span>2019.05.24</span></li>
+						<li><a href="#"><img src="img/03.jpg" alt="더보기"> alt="">[JP Region]Compute & Network 점검 안내</a><span>2019.05.24</span></li>
+						<li><a href="#"><img src="img/02.jpg" alt="더보기">Secure Key Manager 신규 출시 및 u2 Instance 정책 변경</a><span>2019.05.24</span></li>
+					</ul>
+					<a href="#" class="more"><img src="img/01.jpg" alt="더보기"></a>
+				</div>
+			</div>
+		</body>
+	</html>
