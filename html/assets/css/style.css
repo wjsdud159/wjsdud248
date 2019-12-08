@@ -179,7 +179,7 @@
 .mr25 {margin-right: 25px !important;}
 .mr30 {margin-right: 30px !important;}
 .mr35 {margin-right: 35px !important;}
-.mr40 {margin-right: 40px !important;}
+.mr40 {margin-right: 40px !important;}  
 .mr45 {margin-right: 45px !important;}
 .mr50 {margin-right: 50px !important;}
 .mr55 {margin-right: 55px !important;}
@@ -221,10 +221,10 @@
 }
 #contents_tit p {
 	padding:35px 0; 
-	font-family:'Nanum Brush Script'; font-size:39px; letter-spacing:2px;
+	font-family: 'Baloo Bhai', cursive; font-size:39px; letter-spacing:2px;
 }
 #contents_tit p a {
-	color:#2c94c4; 
+	color:#fd5e98; 
 }
 
 
